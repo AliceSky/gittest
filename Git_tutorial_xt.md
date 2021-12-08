@@ -247,13 +247,16 @@ git pull upstream master --rebase
     * 切换到开发的主分支，命令为 git checkout <主分支名>
 
     * 本地主分支同步远程主分支,命令为git  pull或者git fetch
+  
     * 切回到自己的私有分支，命令为git checkout <私有分支名>
-    * 将私有分支与更新的主分支合并，命令为
-      git merge 主分支名
+  
+    * 将私有分支与更新的主分支合并，命令为 git merge 主分支名
+  
     * 分别执行下列指令，重新提交私有分支到远程仓库
         git add .
         git commit 
         git push
+        
     * 手动解决冲突后，执行命令
         git add .
         git rebase --continue
